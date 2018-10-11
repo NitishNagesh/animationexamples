@@ -13,6 +13,7 @@
 		6BAEBBA8216F519F00993D8F /* animationexamples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BAEBBA6216F519F00993D8F /* animationexamples.xcdatamodeld */; };
 		6BAEBBAA216F51A100993D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BAEBBA9216F51A100993D8F /* Assets.xcassets */; };
 		6BAEBBAD216F51A100993D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BAEBBAB216F51A100993D8F /* LaunchScreen.storyboard */; };
+		6BAEBBB5216F51FF00993D8F /* shakingcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAEBBB4216F51FF00993D8F /* shakingcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6BAEBBA9216F51A100993D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BAEBBAC216F51A100993D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BAEBBAE216F51A100993D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAEBBB4216F51FF00993D8F /* shakingcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakingcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		6BAEBB93216F519F00993D8F = {
 			isa = PBXGroup;
 			children = (
+				6BAEBBB4216F51FF00993D8F /* shakingcontroller.swift */,
 				6BAEBB9E216F519F00993D8F /* animationexamples */,
 				6BAEBB9D216F519F00993D8F /* Products */,
 			);
@@ -141,6 +144,7 @@
 				6BAEBBA8216F519F00993D8F /* animationexamples.xcdatamodeld in Sources */,
 				6BAEBBA2216F519F00993D8F /* ViewController.swift in Sources */,
 				6BAEBBA0216F519F00993D8F /* AppDelegate.swift in Sources */,
+				6BAEBBB5216F51FF00993D8F /* shakingcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

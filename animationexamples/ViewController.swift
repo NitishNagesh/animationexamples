@@ -8,16 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  , UITextFieldDelegate{
 
+    @IBOutlet weak var pass: shakingcontroller!
     override func viewDidLoad() {
         super.viewDidLoad()
+        pass.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        pass.shake()
     }
 
 
